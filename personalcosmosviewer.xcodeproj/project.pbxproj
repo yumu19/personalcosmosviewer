@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0136EF017AE0A6B00D5C567 /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0136EED17AE0A6B00D5C567 /* 3@2x.png */; };
+		A0136EF117AE0A6B00D5C567 /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0136EEE17AE0A6B00D5C567 /* 2@2x.png */; };
+		A0136EF217AE0A6B00D5C567 /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0136EEF17AE0A6B00D5C567 /* 1@2x.png */; };
+		A0136EF417AE235200D5C567 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0136EF317AE235200D5C567 /* icon.png */; };
 		A0DF6A1317AE01DA009DCC11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DF6A1217AE01DA009DCC11 /* UIKit.framework */; };
 		A0DF6A1517AE01DA009DCC11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DF6A1417AE01DA009DCC11 /* Foundation.framework */; };
 		A0DF6A1717AE01DA009DCC11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DF6A1617AE01DA009DCC11 /* CoreGraphics.framework */; };
@@ -17,8 +21,6 @@
 		A0DF6A2717AE01DA009DCC11 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DF6A2617AE01DA009DCC11 /* Default@2x.png */; };
 		A0DF6A2917AE01DA009DCC11 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0DF6A2817AE01DA009DCC11 /* Default-568h@2x.png */; };
 		A0DF6A2C17AE01DA009DCC11 /* PCVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DF6A2B17AE01DA009DCC11 /* PCVViewController.m */; };
-		A0DF6A2F17AE01DA009DCC11 /* PCVViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DF6A2D17AE01DA009DCC11 /* PCVViewController_iPhone.xib */; };
-		A0DF6A3217AE01DA009DCC11 /* PCVViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DF6A3017AE01DA009DCC11 /* PCVViewController_iPad.xib */; };
 		A0DF6A3A17AE01DB009DCC11 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DF6A3917AE01DB009DCC11 /* SenTestingKit.framework */; };
 		A0DF6A3B17AE01DB009DCC11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DF6A1217AE01DA009DCC11 /* UIKit.framework */; };
 		A0DF6A3C17AE01DB009DCC11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0DF6A1417AE01DA009DCC11 /* Foundation.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0136EED17AE0A6B00D5C567 /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@2x.png"; sourceTree = "<group>"; };
+		A0136EEE17AE0A6B00D5C567 /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
+		A0136EEF17AE0A6B00D5C567 /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1@2x.png"; sourceTree = "<group>"; };
+		A0136EF317AE235200D5C567 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		A0DF6A0F17AE01DA009DCC11 /* personalcosmosviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = personalcosmosviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DF6A1217AE01DA009DCC11 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A0DF6A1417AE01DA009DCC11 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,8 +58,6 @@
 		A0DF6A2817AE01DA009DCC11 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A0DF6A2A17AE01DA009DCC11 /* PCVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PCVViewController.h; sourceTree = "<group>"; };
 		A0DF6A2B17AE01DA009DCC11 /* PCVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PCVViewController.m; sourceTree = "<group>"; };
-		A0DF6A2E17AE01DA009DCC11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PCVViewController_iPhone.xib; sourceTree = "<group>"; };
-		A0DF6A3117AE01DA009DCC11 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PCVViewController_iPad.xib; sourceTree = "<group>"; };
 		A0DF6A3817AE01DB009DCC11 /* personalcosmosviewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = personalcosmosviewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DF6A3917AE01DB009DCC11 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A0DF6A4117AE01DB009DCC11 /* personalcosmosviewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "personalcosmosviewerTests-Info.plist"; sourceTree = "<group>"; };
@@ -86,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0136EEC17AE0A5A00D5C567 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A0136EF317AE235200D5C567 /* icon.png */,
+				A0136EED17AE0A6B00D5C567 /* 3@2x.png */,
+				A0136EEE17AE0A6B00D5C567 /* 2@2x.png */,
+				A0136EEF17AE0A6B00D5C567 /* 1@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		A0DF6A0617AE01DA009DCC11 = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +138,6 @@
 				A0DF6A2217AE01DA009DCC11 /* PCVAppDelegate.m */,
 				A0DF6A2A17AE01DA009DCC11 /* PCVViewController.h */,
 				A0DF6A2B17AE01DA009DCC11 /* PCVViewController.m */,
-				A0DF6A2D17AE01DA009DCC11 /* PCVViewController_iPhone.xib */,
-				A0DF6A3017AE01DA009DCC11 /* PCVViewController_iPad.xib */,
 				A0DF6A1917AE01DA009DCC11 /* Supporting Files */,
 			);
 			path = personalcosmosviewer;
@@ -133,6 +146,7 @@
 		A0DF6A1917AE01DA009DCC11 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A0136EEC17AE0A5A00D5C567 /* images */,
 				A0DF6A1A17AE01DA009DCC11 /* personalcosmosviewer-Info.plist */,
 				A0DF6A1B17AE01DA009DCC11 /* InfoPlist.strings */,
 				A0DF6A1E17AE01DA009DCC11 /* main.m */,
@@ -239,8 +253,10 @@
 				A0DF6A2517AE01DA009DCC11 /* Default.png in Resources */,
 				A0DF6A2717AE01DA009DCC11 /* Default@2x.png in Resources */,
 				A0DF6A2917AE01DA009DCC11 /* Default-568h@2x.png in Resources */,
-				A0DF6A2F17AE01DA009DCC11 /* PCVViewController_iPhone.xib in Resources */,
-				A0DF6A3217AE01DA009DCC11 /* PCVViewController_iPad.xib in Resources */,
+				A0136EF017AE0A6B00D5C567 /* 3@2x.png in Resources */,
+				A0136EF117AE0A6B00D5C567 /* 2@2x.png in Resources */,
+				A0136EF217AE0A6B00D5C567 /* 1@2x.png in Resources */,
+				A0136EF417AE235200D5C567 /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,22 +322,6 @@
 				A0DF6A1C17AE01DA009DCC11 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A0DF6A2D17AE01DA009DCC11 /* PCVViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0DF6A2E17AE01DA009DCC11 /* en */,
-			);
-			name = PCVViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		A0DF6A3017AE01DA009DCC11 /* PCVViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A0DF6A3117AE01DA009DCC11 /* en */,
-			);
-			name = PCVViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		A0DF6A4217AE01DB009DCC11 /* InfoPlist.strings */ = {
@@ -400,6 +400,7 @@
 				GCC_PREFIX_HEADER = "personalcosmosviewer/personalcosmosviewer-Prefix.pch";
 				INFOPLIST_FILE = "personalcosmosviewer/personalcosmosviewer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -411,6 +412,7 @@
 				GCC_PREFIX_HEADER = "personalcosmosviewer/personalcosmosviewer-Prefix.pch";
 				INFOPLIST_FILE = "personalcosmosviewer/personalcosmosviewer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -468,6 +470,7 @@
 				A0DF6A4C17AE01DB009DCC11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0DF6A4D17AE01DB009DCC11 /* Build configuration list for PBXNativeTarget "personalcosmosviewerTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +479,7 @@
 				A0DF6A4F17AE01DB009DCC11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

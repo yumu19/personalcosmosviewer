@@ -16,11 +16,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[PCVViewController alloc] initWithNibName:@"PCVViewController_iPhone" bundle:nil];
-    } else {
-        self.viewController = [[PCVViewController alloc] initWithNibName:@"PCVViewController_iPad" bundle:nil];
-    }
+//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+    self.viewController = [[PCVViewController alloc] init];
+//    self.viewController.view.backgroundColor = [UIColor redColor];
+//    } else {
+//        self.viewController = [[PCVViewController alloc] initWithNibName:@"PCVViewController_iPad" bundle:nil];
+//    }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
